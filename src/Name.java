@@ -14,8 +14,8 @@ public class Name {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Name n1 =new Name("kamil","Amin");
-		n1.print();
 		Name n2 = new Name("Mohamed","Hassan");
+		n1.print();
 		n2.print();
 
 	}
