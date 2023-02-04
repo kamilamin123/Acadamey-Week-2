@@ -1,3 +1,4 @@
+package intro2java;
  class Rectangle {
     private int length;
     private int width;

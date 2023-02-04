@@ -1,3 +1,4 @@
+package intro2java;
 
 public class Name {
 	private String first;

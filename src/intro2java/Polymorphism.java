@@ -1,3 +1,4 @@
+package intro2java;
 class Bird {
 	public void sing() {
 		System.out.println("tweet tweet tweet tweet");

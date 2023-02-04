@@ -1,3 +1,4 @@
+package intro2java;
 public class Account {
     private String name;
     private double balance;

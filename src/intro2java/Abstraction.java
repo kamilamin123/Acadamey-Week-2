@@ -1,3 +1,4 @@
+package intro2java;
 interface DogInterface{
 	void bark();
 	void poop();
