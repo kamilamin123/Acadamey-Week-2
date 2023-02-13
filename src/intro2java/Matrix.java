@@ -10,16 +10,27 @@ public class Matrix {
 		Scanner scan= new Scanner(System.in);
 		String[][] arr = {
 				{ "a", "v", "a", "o", "n", "+" }, 
-				{ "t", "o", "i", "a", "l", "l" },
-				{ "m", "a", "i", "c", "i", "i" }, 
-				{ "s", "s", "f", "a", "a", "a" }, 
-				{ "o", "e", "a", "z", "a", "i" },
-				{ "o", "e", "n", "a", "o", "i" },
-				{ "s", "t", "a", "a", "i", "i" } };
+				{ "t", "o", "i", "-", "l", "l" },
+				{ "m", "a", "i", "-", "i", "i" }, 
+				{ "s", "s", "-", "-", "a", "a" }, 
+				{ "o", "e", "a", "-", "a", "i" },
+				{ "o", "e", "n", "-", "o", "i" },
+				{ "s", "t", "a", "-", "i", "i" } };
+		
+		for (int row1 = arr.length-1; row1 <=0 ; row1--) {
+			if (arr[2][3].equals("-")) {
+				System.out.println("133");
+				
+			}}
+		
+		
+
+		
+		
 		for (int j = 0; j <= arr.length + arr[0].length - 1; j++) {
 			String previousValue="";
 			int numberCheck=0;
-			for (int k = 0; k <= j; k++) { // cols
+			for (int k = j; k >= 0; k--) { // cols
 				int l = j - k; //  rows
 				int mirror = arr.length - l;
 				if (mirror >= 0 && mirror < arr.length && k < arr[0].length) {

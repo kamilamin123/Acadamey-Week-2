@@ -2,14 +2,11 @@ package intro2java;
 // InsufficientFundsException.java 
 public class InsufficientFundsException extends Exception {
 
-	private double amount;
 
-	public InsufficientFundsException(double amount) {
-		this.amount = amount;
+	public InsufficientFundsException(double amount,String message) {
+		super(message+amount);
+		
 	}
 
-	public double getAmount() {
-		return amount;
-	}
 
 }
